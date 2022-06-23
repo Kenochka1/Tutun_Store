@@ -1,0 +1,68 @@
+{
+  "tabaccos": [
+    {
+      "title": "Vape Dovpod",
+      "type": "Vapes",
+      "description": "Dovpo Technology were born in 2016, and have quickly become a highly regarded manufacturer of high end box mods, rebuildable tanks as well as a host of DIY accessories. All of the DOVPO vaping products are built to highest of standards and come equipped with the latest technology.",
+      "price": "4000",
+      "image": "https://ae01.alicdn.com/kf/HTB1mDAaSpXXXXctapXXq6xXFXXXs.jpg?size=375548&height=667&width=1000&hash=551936bbfd9535e54e115a1e1c08134b",
+      "id": 10
+    },
+    {
+      "title": "Winston",
+      "type": "Cigarettes",
+      "description": "A cigarette is a narrow cylinder containing burnable material, typically tobacco, that is rolled into thin paper for smoking. The cigarette is ignited at one end, causing it to smolder; the resulting smoke is orally inhaled via the opposite end. Cigarette smoking is the most common method of tobacco consumption. Manufacturers have described the cigarette as \"",
+      "price": "100",
+      "image": "https://catherineasquithgallery.com/uploads/posts/2021-02/1613449645_41-p-fon-dlya-prezentatsii-pro-kurenie-50.jpg",
+      "id": 11
+    },
+    {
+      "title": "Hookah h93",
+      "type": "Hookah",
+      "description": "The major health risks associated with smoking tobacco, cannabis, opium, and other drugs through a hookah include exposure to toxic chemicals, carcinogens, and heavy metals that are not filtered out by the water",
+      "price": "5000",
+      "image": "https://catherineasquithgallery.com/uploads/posts/2021-02/1612280826_165-p-kalyan-fioletovii-fon-241.jpg",
+      "id": 12
+    },
+    {
+      "title": "Tabac from IK",
+      "type": "Hand Rolling",
+      "description": "The hookah or waterpipe was invented by Abul-Fath Gilani, a Persian physician of Akbar, in the Indian city of Fatehpur Sikri during Mughal India;[9][14][15] the hookah spread from the Indian subcontinent to Persia first, where the mechanism was modified to its current shape, and then to the Near East",
+      "price": "500",
+      "image": "https://img-fotki.yandex.ru/get/906863/67912689.1a/0_dc74c_59824043_XXXL.jpg",
+      "id": 13
+    },
+    {
+      "title": "SPO LIGHT",
+      "type": "E-liquid",
+      "description": "Despite tobacco and drug use being considered a taboo when the hookah was first conceived, its use became increasingly popular among nobility and subsequently widely accepted.[21] Gradually, burned tobacco has been commonly replaced by vaporizing flavored shisha.",
+      "price": "800",
+      "image": "https://cdn.hipwallpaper.com/i/69/64/e96yYS.jpg",
+      "id": 14
+    },
+    {
+      "title": "Elf bar ",
+      "type": "Pods",
+      "description": "The word hookah is a derivative of \"huqqa\", a Hindustani word,[2][23][24] of Arabic origin (derived from حُقَّة ḥuqqa, \"casket, bottle, water pipe\").[25] Outside its native region, hookah smoking has gained popularity throughout the world,[16] especially among younger people.[",
+      "price": "1200",
+      "image": "https://img4.goodfon.ru/original/4010x2664/d/bb/vape-smoke-fuchai-zhidkost-veip.jpg",
+      "id": 15
+    },
+    {
+      "title": "Vaperosso",
+      "type": "Vapes",
+      "description": "In the Indian subcontinent, the Hindustani word huqqa (Devanagari: हुक़्क़ा, Nastaleeq: حقّہ) is used and is the origin of the English word \"hookah\".[1][27] The widespread use of the Indian word \"hookah\" in the English language is a result of the colonization in British India",
+      "price": "3500",
+      "image": "https://kaljaninfo.ru/wp-content/uploads/2022/02/vaporesso-pm80.png",
+      "id": 16
+    },
+    {
+      "title": "Vape",
+      "type": "Vapes",
+      "description": "jsdjfisdfsdjisdifdsfsdfsdfsdfsdfsdfsdf dsfsd sdfsdfs sdfsdf gfhgjgh hjghhjkhjk",
+      "price": "5000",
+      "image": "data:image/jpeg;base64,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",
+      "id": 17
+    }
+  ]
+}

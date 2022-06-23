@@ -1,0 +1,15 @@
+* remote origin
+  Fetch URL: git@github.com:Kenochka1/Tutun_Store_Final.git
+  Push  URL: git@github.com:Kenochka1/Tutun_Store_Final.git
+  HEAD branch: master
+  Remote branches:
+    aibat  tracked
+    aidar  tracked
+    keno   tracked
+    master tracked
+  Local branches configured for 'git pull':
+    keno   merges with remote keno
+    master merges with remote master
+  Local refs configured for 'git push':
+    keno   pushes to keno   (up to date)
+    master pushes to master (local out of date)

@@ -1,0 +1,155 @@
+.mainContainer__addTabacco {
+  font-family: "Audiowide" !important;
+  width: 100%;
+  background-color: black;
+  margin-top: -30px;
+}
+
+.container__addTabacco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 40px; */
+  width: 100%;
+  background-color: black;
+}
+
+.inp1 {
+  margin: 20px 200px !important;
+  width: 700px;
+}
+
+.inp2 {
+  margin: 20px 200px !important;
+  width: 700px;
+}
+
+.inp3 {
+  margin: 20px 200px !important;
+  width: 700px;
+}
+
+.inp4 {
+  margin: 20px 200px !important;
+  width: 700px;
+}
+
+.inp5 {
+  margin: 20px 200px !important;
+  width: 700px;
+}
+
+.btnSave {
+  width: 200px;
+  height: 50px;
+  margin-top: 40px !important;
+}
+
+.btnSave {
+  width: 200px !important;
+  height: 50px;
+
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  text-align: center;
+  border: 1px solid white;
+  background-color: black;
+  color: #8dfd1b;
+  color: white;
+}
+
+.btnSave:hover {
+  background-color: #8dfd1b;
+  transform: 1s;
+  color: black;
+  border: black 2px solid;
+}
+
+@media all and (max-width: 426px) {
+  .inp1 {
+    margin: 20px 200px !important;
+    width: 380px;
+  }
+
+  .inp2 {
+    margin: 20px 200px !important;
+    width: 380px;
+  }
+
+  .inp3 {
+    margin: 20px 200px !important;
+    width: 380px;
+  }
+
+  .inp4 {
+    margin: 20px 200px !important;
+    width: 380px;
+  }
+
+  .inp5 {
+    margin: 20px 200px !important;
+    width: 380px;
+  }
+}
+
+@media all and (max-width: 376px) {
+  .inp1 {
+    margin: 20px 200px !important;
+    width: 340px;
+  }
+
+  .inp2 {
+    margin: 20px 200px !important;
+    width: 340px;
+  }
+
+  .inp3 {
+    margin: 20px 200px !important;
+    width: 340px;
+  }
+
+  .inp4 {
+    margin: 20px 200px !important;
+    width: 340px;
+  }
+
+  .inp5 {
+    margin: 20px 200px !important;
+    width: 340px;
+  }
+}
+
+@media all and (max-width: 321px) {
+  .inp1 {
+    margin: 20px 200px !important;
+    width: 280px;
+  }
+
+  .inp2 {
+    margin: 20px 200px !important;
+    width: 280px;
+  }
+
+  .inp3 {
+    margin: 20px 200px !important;
+    width: 280px;
+  }
+
+  .inp4 {
+    margin: 20px 200px !important;
+    width: 280px;
+  }
+
+  .inp5 {
+    margin: 20px 200px !important;
+    width: 280px;
+  }
+}

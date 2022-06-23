@@ -1,0 +1,27 @@
+#demo-radio-buttons-group-label {
+  color: #8dfd1b;
+
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 12px;
+  /* identical to box height, or 109% */
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+  color: #8dfd1b;
+}
+
+.css-j204z7-MuiFormControlLabel-root .MuiFormControlLabel-label {
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 32px;
+}

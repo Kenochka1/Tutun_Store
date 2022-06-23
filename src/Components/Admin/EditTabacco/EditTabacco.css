@@ -1,0 +1,168 @@
+.container-service-inputs {
+  font-family: "Audiowide" !important;
+  width: 100%;
+  background-color: black;
+  margin-top: -30px;
+  /* background-image: url("../../../Assets/images3/backimage.jpg");
+    background: rgba(0, 0, 0, 0.752); */
+}
+
+.fields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 10px;
+  padding-top: 40px;
+}
+
+.field1 {
+  margin: 20px 200px !important;
+  width: 700px;
+}
+
+.field2 {
+  margin: 20px 200px !important;
+  width: 700px;
+}
+
+.field3 {
+  margin: 20px 200px !important;
+  width: 700px;
+}
+
+.field4 {
+  margin: 20px 200px !important;
+  width: 700px;
+}
+
+.field5 {
+  margin: 20px 200px !important;
+  width: 700px;
+}
+
+.btnSave {
+  width: 200px;
+  height: 50px;
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+}
+
+.btnSave {
+  width: 200px !important;
+  height: 50px;
+
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  text-align: center;
+  border: 1px solid white;
+  background-color: black;
+  color: #8dfd1b;
+  color: white;
+}
+
+.btnSave:hover {
+  background-color: #8dfd1b;
+  transform: 1s;
+  color: black;
+  border: black 2px solid;
+}
+
+#outlined-basic {
+  color: #333;
+  background-color: white;
+}
+
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
+  color: #8dfd1b !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+}
+
+@media all and (max-width: 426px) {
+  .field1 {
+    margin: 20px 200px !important;
+    width: 380px;
+  }
+
+  .field2 {
+    margin: 20px 200px !important;
+    width: 380px;
+  }
+
+  .field3 {
+    margin: 20px 200px !important;
+    width: 380px;
+  }
+
+  .field4 {
+    margin: 20px 200px !important;
+    width: 380px;
+  }
+
+  .field5 {
+    margin: 20px 200px !important;
+    width: 380px;
+  }
+}
+
+@media all and (max-width: 376px) {
+  .field1 {
+    margin: 20px 200px !important;
+    width: 340px;
+  }
+
+  .field2 {
+    margin: 20px 200px !important;
+    width: 340px;
+  }
+
+  .field3 {
+    margin: 20px 200px !important;
+    width: 340px;
+  }
+
+  .field4 {
+    margin: 20px 200px !important;
+    width: 340px;
+  }
+
+  .field5 {
+    margin: 20px 200px !important;
+    width: 340px;
+  }
+}
+
+@media all and (max-width: 321px) {
+  .field1 {
+    margin: 20px 200px !important;
+    width: 280px;
+  }
+
+  .field2 {
+    margin: 20px 200px !important;
+    width: 280px;
+  }
+
+  .field3 {
+    margin: 20px 200px !important;
+    width: 280px;
+  }
+
+  .field4 {
+    margin: 20px 200px !important;
+    width: 280px;
+  }
+
+  .field5 {
+    margin: 20px 200px !important;
+    width: 280px;
+  }
+}

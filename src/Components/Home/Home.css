@@ -1,0 +1,1053 @@
+/* FONT audiowide */
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+/* FONT inter */
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.home__video {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: black;
+  position: relative;
+  /* z-index: 0; */
+  padding-top: 30px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.home__video video {
+  width: 60%;
+  border-radius: 30px;
+  /* height: 850px; */
+}
+
+.home__video h1 {
+  position: absolute;
+  margin-top: 230px;
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 51px;
+  color: white;
+  z-index: 1;
+}
+
+.home__video h2 {
+  position: absolute;
+  margin-top: 280px;
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #858585;
+  z-index: 1;
+}
+
+.container__home {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  height: 600px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.container__left {
+  width: 40%;
+}
+.container__left {
+  width: 60%;
+}
+
+.container__left__text {
+  margin-left: 72px;
+  margin-right: 20px;
+}
+
+.container__left__text h1 {
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 51px;
+  color: white;
+  margin-top: 80px;
+  margin-left: 70px;
+}
+
+.container__left__text p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+  margin-top: 40px;
+  margin-right: 120px;
+  margin-left: 70px;
+}
+
+.container__left__text button {
+  width: 200px;
+  height: 60px;
+  background-color: #8dfd1b;
+  color: black;
+
+  font-family: "DM Mono";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 16px;
+  margin-top: 100px;
+  margin-left: 70px;
+
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#biHome {
+  width: 830px;
+  height: 600px;
+}
+
+/* CONTENT CSS START */
+.container__content {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  color: white;
+
+  padding-top: 80px;
+  padding-bottom: 50px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.content__left {
+  width: 40%;
+  margin-left: 72px;
+}
+
+.content__left h3 {
+  margin-left: 72px;
+
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 45px;
+  /* identical to box height, or 120% */
+
+  text-transform: uppercase;
+}
+
+.content__left h4 {
+  margin-left: 72px;
+
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 45px;
+  margin-bottom: 40px;
+  /* or 120% */
+
+  text-transform: uppercase;
+
+  color: #a8a8a8;
+}
+
+.content__left img {
+  margin-left: 72px;
+}
+
+.content__right {
+  width: 60%;
+}
+
+.content__right__text {
+  width: 550px;
+  margin-left: 100px;
+}
+
+.content__right__text h3 {
+  font-family: "DM Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+  /* or 152% */
+
+  color: #8dfd1b;
+}
+
+.content__right__text p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 160% */
+  margin-top: 30px;
+
+  color: #ffffff;
+}
+
+.content__right__text button {
+  width: 240px;
+  height: 46px;
+  background-color: black;
+  color: white;
+
+  font-family: "DM Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+
+  text-align: center;
+  text-transform: capitalize;
+  border: 1px solid #8dfd1b;
+  border-radius: 0px;
+  margin-top: 30px;
+}
+
+/* CONTENT CSS FINISH */
+
+/* TEAM CSS START */
+
+.container__team {
+  background-color: black;
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.team__text h2 {
+  text-align: center;
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 88px;
+  margin-bottom: 20px;
+}
+
+.team__photo__front {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.team__photo__back {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.photo_front {
+  width: 260px;
+  text-align: center;
+}
+
+.photo_front h4 {
+  font-family: "DM Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 28px;
+  margin-top: 19px;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.photo_front h5 {
+  font-family: "DM Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #8dfd1b;
+}
+
+.photo_front p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  margin-top: 15px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.photo_back {
+  width: 260px;
+  text-align: center;
+}
+
+.photo_back h4 {
+  font-family: "DM Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 28px;
+  margin-top: 19px;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.photo_back h5 {
+  font-family: "DM Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #8dfd1b;
+}
+
+.photo_back p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  margin-top: 15px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+#kanat {
+  width: 250px;
+  height: 310px;
+}
+
+#aiba {
+  width: 250px;
+  height: 310px;
+}
+
+#aidar {
+  width: 250px;
+  height: 310px;
+}
+
+#isa {
+  width: 250px;
+  height: 310px;
+}
+
+#erbol {
+  width: 250px;
+  height: 310px;
+}
+
+#ptichka {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#ptichka1 {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+/* TEAM CSS FINISH */
+
+/* FEATURES START */
+.container__features {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.container__features__left {
+  width: 40%;
+  margin-left: 180px;
+}
+
+.container__features__left h2 {
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 45px;
+  /* identical to box height, or 120% */
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+
+.container__features__left h3 {
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 45px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  margin-left: 30px;
+
+  color: #a8a8a8;
+}
+
+.container__features__right {
+  width: 60%;
+  margin-left: 90px;
+}
+
+.container__right__items {
+  width: 580px;
+  height: 470px;
+  background: #222222;
+  text-align: left;
+}
+
+.container__right__items h3 {
+  font-family: "DM Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 30px;
+  padding-top: 20px;
+  margin-right: 30px;
+}
+
+.container__right__items p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  /* or 160% */
+
+  color: #c4c4c4;
+
+  margin-left: 30px;
+  padding-top: 20px;
+  margin-right: 30px;
+}
+
+/* FEATURES FINISH */
+
+@media all and (max-width: 1024px) {
+  .home__video h1 {
+    margin-top: 130px;
+    font-size: 45px;
+  }
+
+  .home__video h2 {
+    margin-top: 170px;
+    font-size: 29px;
+  }
+
+  #biHome {
+    width: 500px;
+    height: 300px;
+  }
+
+  .container__home {
+    justify-content: center;
+    padding-top: 40px;
+    height: 400px;
+  }
+
+  .container__left {
+    margin-top: 30px;
+  }
+
+  .container__left__text p {
+    margin: 0;
+    font-size: 15px;
+    padding-top: 20px;
+  }
+
+  .container__left__text h1 {
+    margin: 0;
+    font-size: 30px;
+  }
+
+  .container__left__text button {
+    margin-top: 20px;
+    margin-left: 0;
+    height: 50px;
+    font-size: 15px;
+  }
+
+  /* CONTENT START  */
+  .content__left {
+    margin-left: 10px;
+  }
+
+  .content__left h3 {
+    font-size: 28px;
+    margin-left: 50px;
+    margin-bottom: 0;
+  }
+
+  .content__left h4 {
+    font-size: 28px;
+    margin-left: 50px;
+    margin-top: 0;
+    line-height: 1;
+  }
+
+  #biHome2 {
+    width: 250px;
+  }
+
+  .content__right__text {
+    margin-left: 20px;
+  }
+
+  .content__right__text h3 {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .content__right__text p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .content__right__text button {
+    font-size: 14px;
+  }
+  /* CONTENT FINISH  */
+
+  /* TEAM START */
+  .team__text h2 {
+    font-size: 40px;
+  }
+
+  .photo_front {
+    width: 200px;
+  }
+
+  #aiba {
+    width: 200px;
+    height: 250px;
+  }
+
+  #kanat {
+    width: 200px;
+    height: 250px;
+  }
+
+  #aidar {
+    width: 200px;
+    height: 250px;
+  }
+
+  .photo_back {
+    width: 200px;
+  }
+
+  #erbol {
+    width: 200px;
+    height: 250px;
+  }
+
+  #kaliya {
+    width: 200px;
+    height: 250px;
+  }
+
+  #isa {
+    width: 200px;
+    height: 250px;
+  }
+  /* TEAM FINISH */
+
+  /* FEATURES START */
+  .container__features__left {
+    margin-left: 70px;
+  }
+
+  .container__features__left h2 {
+    font-size: 28px;
+    line-height: 1;
+  }
+
+  .container__features__left h3 {
+    font-size: 28px;
+    line-height: 1;
+  }
+
+  .container__features__left img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .container__right__items {
+    margin-left: 20px;
+    width: 500px;
+    height: 400px;
+  }
+
+  .container__right__items h3 {
+    font-size: 14px;
+  }
+
+  .container__right__items p {
+    font-size: 10px;
+    padding-top: 5px;
+  }
+
+  .container__features__right {
+    margin-left: 20px;
+  }
+
+  /* FEATURES FINISH */
+}
+
+@media all and (max-width: 768px) {
+  .home__video h1 {
+    margin-top: 100px;
+    font-size: 35px;
+  }
+
+  .home__video h2 {
+    margin-top: 140px;
+    font-size: 22px;
+  }
+
+  .container__home {
+    margin: 0;
+    padding: 0;
+  }
+
+  #biHome {
+    width: 450px;
+    height: 250px;
+    margin-top: 50px;
+  }
+
+  .container__left__text p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .container__left__text button {
+    width: 160px;
+    height: 35px;
+    font-size: 13px;
+  }
+
+  /* CONTENT START */
+  #biHome2 {
+    width: 200px;
+    margin-left: 40px;
+  }
+
+  .content__left h3 {
+    font-size: 22px;
+  }
+
+  .content__left h4 {
+    font-size: 22px;
+  }
+
+  .content__right__text {
+    width: 430px;
+    margin: 0;
+  }
+
+  .content__right__text h3 {
+    font-size: 13px;
+  }
+
+  .content__right__text p {
+    font-size: 13px;
+  }
+
+  .content__right__text button {
+    width: 200px;
+    height: 35px;
+    font-size: 13px;
+  }
+  /* CONTENT FINISH */
+
+  /* TEAM START */
+  .team__text h2 {
+    font-size: 35px;
+  }
+
+  .photo_front {
+    width: 180px;
+  }
+
+  #aiba {
+    width: 180px;
+    height: 220px;
+  }
+
+  #kanat {
+    width: 180px;
+    height: 220px;
+  }
+
+  #aidar {
+    width: 180px;
+    height: 220px;
+  }
+
+  .photo_back {
+    width: 180px;
+  }
+
+  #erbol {
+    width: 180px;
+    height: 220px;
+  }
+
+  #kaliya {
+    width: 180px;
+    height: 220px;
+  }
+
+  #isa {
+    width: 180px;
+    height: 220px;
+  }
+  /* TEAM FINISH */
+
+  /* FEATURES START */
+  .container__features__left {
+    margin-left: 40px;
+    width: 35%;
+  }
+
+  .container__features__left h2 {
+    font-size: 22px;
+    line-height: 1;
+  }
+
+  .container__features__left h3 {
+    font-size: 22px;
+    line-height: 1;
+  }
+
+  .container__features__left img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .container__right__items {
+    margin-left: 0px;
+    width: 420px;
+    height: 400px;
+  }
+
+  .container__right__items h3 {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+
+  .container__right__items p {
+    font-size: 9px;
+    padding-top: 5px;
+  }
+
+  .container__features__right {
+    margin-left: 20px;
+  }
+  /* FEATURES FINISH */
+}
+
+@media all and (max-width: 426px) {
+  .home__video h1 {
+    margin-top: 70px;
+    font-size: 20px;
+  }
+
+  .home__video h2 {
+    margin-top: 90px;
+    font-size: 13px;
+  }
+
+  .container__home {
+    margin: 0;
+    padding: 0;
+  }
+
+  #biHome {
+    display: none;
+  }
+
+  .container__left__text {
+    margin-left: 45px;
+    margin-right: 20px;
+  }
+
+  .container__left__text p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .container__left__text button {
+    width: 160px;
+    height: 35px;
+    font-size: 13px;
+  }
+
+  /* CONTENT START */
+  .container__content {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .content__left {
+    width: 100%;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #biHome2 {
+    width: 200px;
+    margin-left: 0px;
+  }
+
+  .content__left h3 {
+    font-size: 22px;
+    margin-left: 0;
+  }
+
+  .content__left h4 {
+    font-size: 22px;
+    margin-left: 0;
+  }
+
+  .content__right__text {
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 20px;
+  }
+
+  .content__right__text h3 {
+    font-size: 10px;
+    margin-top: 20px;
+  }
+
+  .content__right__text p {
+    display: none;
+  }
+
+  .content__right__text button {
+    width: 200px;
+    height: 35px;
+    font-size: 13px;
+  }
+  /* CONTENT FINISH */
+
+  /* TEAM START */
+  .team__text h2 {
+    font-size: 35px;
+  }
+
+  .team__photo__front {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photo_front {
+    width: 180px;
+  }
+
+  #aiba {
+    width: 180px;
+    height: 220px;
+  }
+
+  #kanat {
+    width: 180px;
+    height: 220px;
+  }
+
+  #aidar {
+    width: 180px;
+    height: 220px;
+  }
+
+  .team__photo__back {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photo_back {
+    width: 180px;
+  }
+
+  #erbol {
+    width: 180px;
+    height: 220px;
+  }
+
+  #kaliya {
+    width: 180px;
+    height: 220px;
+  }
+
+  #isa {
+    width: 180px;
+    height: 220px;
+  }
+  /* TEAM FINISH */
+
+  /* FEATURES START */
+
+  .container__features {
+    flex-direction: column;
+    /* padding: 0; */
+  }
+
+  .container__features__left {
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container__features__left h2 {
+    font-size: 22px;
+    margin-left: 0;
+    line-height: 1;
+  }
+
+  .container__features__left h3 {
+    font-size: 22px;
+    margin-left: 0;
+    line-height: 1;
+  }
+
+  .container__features__left img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .container__features__right {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+  }
+
+  .container__right__items {
+    margin-left: 0px;
+    margin-top: 30px;
+    width: 370px;
+    height: 330px;
+  }
+
+  .container__right__items h3 {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+
+  .container__right__items p {
+    font-size: 9px;
+    padding-top: 5px;
+  }
+
+  .features__p {
+    display: none;
+  }
+
+  /* FEATURES FINISH */
+}
+
+@media all and (max-width: 376px) {
+  .home__video h1 {
+    margin-top: 50px;
+    font-size: 17px;
+  }
+
+  .home__video h2 {
+    margin-top: 68px;
+    font-size: 11px;
+  }
+
+  .container__right__items {
+    margin-left: 0px;
+    margin-top: 30px;
+    width: 330px;
+    height: 350px;
+  }
+}
+
+@media all and (max-width: 321px) {
+  .home__video h1 {
+    margin-top: 40px;
+    font-size: 15px;
+  }
+
+  .home__video h2 {
+    margin-top: 57px;
+    font-size: 10px;
+  }
+
+  .container__home {
+    height: 250px;
+  }
+
+  .container__left {
+    width: 100%;
+  }
+
+  .container__left__text p {
+    font-size: 10px;
+  }
+
+  .content__right {
+    width: 100%;
+  }
+
+  .content__right__text {
+    width: 80%;
+    margin-left: 40px;
+    margin-right: 20px;
+  }
+
+  .container__right__items {
+    margin-left: 0px;
+    margin-top: 30px;
+    width: 290px;
+    height: 390px;
+  }
+}

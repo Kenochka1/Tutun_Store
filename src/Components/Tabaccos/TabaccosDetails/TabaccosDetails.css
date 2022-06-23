@@ -1,0 +1,182 @@
+.container__tabaccosDetails {
+  background-color: black;
+  color: white;
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.container__tabacco__left {
+  width: 50%;
+  padding-left: 162px;
+  padding-right: 150px;
+  text-align: center;
+}
+
+.topicDetailsPT1 {
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 45px;
+  color: #898989;
+}
+
+.topicDetailsH3 {
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 45px;
+}
+
+.topicDetailsPT2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #c4c4c4;
+}
+
+.topicDetailsPT3 {
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 45px;
+}
+
+.container__tabacco__right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#imgCards {
+  width: 570px;
+  height: 350px;
+  margin-right: 100px;
+}
+
+#imgCards {
+  filter: grayscale();
+
+  /* border-radius: 50%; */
+  border: 6px solid #222222;
+  box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+  transition: filter 0.4s ease-in-out;
+}
+
+#imgCards:hover {
+  filter: none;
+}
+
+.btnCrud {
+  width: 200px;
+  height: 40px;
+  background-color: #8dfd1b;
+  border-radius: 10px;
+
+  margin-left: 10px;
+  margin-right: 10px;
+
+  font-family: "DM Mono";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.btnCrud:hover {
+  background-color: #222222;
+  color: white;
+  transition: 0.2s;
+}
+
+@media all and (max-width: 1024px) {
+  .container__tabacco__left {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .container__tabaccosDetails {
+    flex-direction: column;
+    padding-bottom: 0;
+    padding-top: 20px;
+  }
+
+  .btnCrud {
+    margin-bottom: 10px;
+  }
+
+  .container__tabacco__left {
+    width: 100%;
+    height: 350px;
+  }
+
+  .container__tabacco__right {
+    width: 100%;
+  }
+
+  #imgCards {
+    margin: 0;
+    margin-top: 70px;
+  }
+}
+
+@media all and (max-width: 426px) {
+  .container__tabacco__left {
+    padding: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 400px;
+  }
+
+  #imgCards {
+    width: 370px;
+    height: 250px;
+  }
+}
+
+@media all and (max-width: 376px) {
+  #imgCards {
+    width: 330px;
+    height: 210px;
+  }
+}
+
+@media all and (max-width: 321px) {
+  .container__tabacco__left {
+    width: 100%;
+    height: 400px;
+  }
+
+  #imgCards {
+    width: 280px;
+    height: 180px;
+  }
+
+  .topicDetailsPT1 {
+    font-size: 25px;
+    margin: 0;
+  }
+
+  .topicDetailsH3 {
+    font-size: 28px;
+  }
+
+  .topicDetailsPT2 {
+    font-size: 13px;
+  }
+
+  .topicDetailsPT3 {
+    font-size: 22px;
+  }
+}

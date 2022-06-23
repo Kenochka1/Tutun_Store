@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500;700&family=DM+Mono:wght@300;400;500&family=Mukta:wght@300;400;500;600;700;800&display=swap");
+
+.container__navbar {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  /* position: absolute; */
+  /* z-index: 1; */
+  /* opacity: 0.2s; */
+  /* display: flex; */
+  /* align-items: center; */
+}
+
+.container-fluid {
+  padding: 0px;
+  opacity: 0.2s;
+}
+
+.nav-link {
+  color: white !important;
+  margin-left: 40px;
+
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 16px;
+}
+
+#logo {
+  margin-left: 120px;
+  width: 150px;
+}
+
+.active .nav-link {
+  color: #8dfd1b !important;
+}
+
+#cart {
+  font-size: 25px;
+  /* margin-right: 30px; */
+  margin-bottom: 5px;
+}
+
+#user {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+
+.navbar__items {
+  display: flex;
+  align-items: center;
+  /* margin-right: 50px; */
+}
+
+.container-fluid {
+  display: flex;
+  align-items: center;
+}
+
+/* ? BURGER MENU */
+.navbar-toggler {
+  color: white !important;
+  background-color: white !important;
+}
+
+.navbar-toggler-icon {
+  color: white !important;
+}
+/* ? BURGER MENU */
+
+@media all and (max-width: 1024px) {
+  #logo {
+    margin-left: 30px;
+  }
+
+  .nav-link {
+    font-size: 15px;
+  }
+}
+
+@media all and (max-width: 987px) {
+  .navbar__items {
+    margin-left: 40px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .container-fluid {
+    padding: 2px;
+  }
+}
+
+@media all and (max-width: 426px) {
+  /* ? BURGER MENU */
+  .navbar-toggler {
+    color: white !important;
+    background-color: white !important;
+    width: 50px;
+  }
+
+  .navbar-toggler-icon {
+    color: white !important;
+  }
+  /* ? BURGER MENU */
+}
+
+@media all and (max-width: 321px) {
+  #logo {
+    width: 120px;
+    height: 60px;
+    margin: 0;
+  }
+}

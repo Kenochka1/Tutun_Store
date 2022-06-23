@@ -1,0 +1,603 @@
+.container__aboutus {
+  background-color: black;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.aboutus__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutus__title h2 {
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 37px;
+  line-height: 45px;
+  /* identical to box height, or 123% */
+
+  text-align: center;
+}
+
+.aboutus__title h3 {
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 45px;
+  /* identical to box height, or 120% */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #a8a8a8;
+}
+
+.aboutus__items {
+  display: flex;
+  width: 1160px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.aboutus__items__right {
+  display: flex;
+  background-color: #222222;
+  width: 880px;
+  height: 500px;
+}
+
+.aboutus__right__left img {
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
+.aboutus__right__right {
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 80px;
+}
+
+.aboutus__items__right h3 {
+  font-family: "DM Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+  /* or 152% */
+
+  color: #8dfd1b;
+}
+
+.aboutus__right__left p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 160% */
+
+  color: #ffffff;
+}
+
+.aboutus__items__left {
+  width: 232px;
+  height: 62px;
+  background-color: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutus__items__left1 {
+  width: 232px;
+  height: 62px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutus__items__left h4 {
+  font-family: "DM Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+
+  color: #8dfd1b;
+}
+
+.aboutus__items__left1 h4 {
+  font-family: "DM Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+
+  color: white;
+}
+
+/* GUITART START */
+.container__guitar img {
+  width: 100%;
+  background-color: black;
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+/* GUITART FINISH */
+
+/* JOIN START */
+.container__join {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.join__right {
+  width: 50%;
+}
+
+.join__left {
+  width: 50%;
+  margin-left: 140px;
+  margin-top: 100px;
+  /* margin-right: 200px; */
+}
+
+.join__left h3 {
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 51px;
+  line-height: 61px;
+  margin-left: 150px;
+  /* identical to box height, or 119% */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.join__left h4 {
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 51px;
+  line-height: 61px;
+  margin-left: 150px;
+
+  /* identical to box height, or 119% */
+
+  text-transform: uppercase;
+
+  color: #8dfd1b;
+}
+
+.join__left p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 160% */
+  margin-right: 320px;
+  margin-top: 40px;
+  margin-left: 150px;
+
+  color: #ffffff;
+}
+
+.join__left button {
+  width: 210px;
+  height: 45px;
+  background-color: #8dfd1b;
+  margin-left: 150px;
+
+  font-family: "DM Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+  margin-top: 40px;
+
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* JOIN FINISH */
+
+@media all and (max-width: 1024px) {
+  .aboutus__items {
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .aboutus__items__right {
+    width: 700px;
+  }
+
+  .aboutus__right__right h3 {
+    font-size: 17px;
+  }
+
+  .aboutus__right__right p {
+    font-size: 14px;
+  }
+
+  /* JOIN START */
+  .join__left {
+    margin: 0;
+  }
+
+  .join__left p {
+    margin: 0;
+    margin-left: 150px;
+    margin-right: 50px;
+  }
+
+  .join__left button {
+    margin-left: 150px;
+  }
+
+  .join__right img {
+    width: 450px;
+    height: 450px;
+  }
+  /* JOIN FINISH */
+}
+
+@media all and (max-width: 768px) {
+  .aboutus__items__left {
+    width: 180px;
+  }
+
+  .aboutus__items__left1 {
+    width: 180px;
+  }
+
+  .aboutus__items__right {
+    width: 550px;
+  }
+
+  .aboutus__right__right h3 {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .aboutus__right__right p {
+    font-size: 12px;
+  }
+
+  .aboutus__right__right {
+    margin-top: 40px;
+  }
+
+  .aboutus__right__left img {
+    margin-top: 40px;
+  }
+
+  /* JOIN START */
+  .join__left {
+    margin: 0;
+  }
+
+  .join__left h3 {
+    margin-left: 70px;
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+
+  .join__left h4 {
+    margin-left: 70px;
+    margin-top: 0px;
+    font-size: 40px;
+  }
+
+  .join__left p {
+    margin: 0;
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 30px;
+  }
+
+  .join__left button {
+    margin-left: 70px;
+  }
+
+  .join__right img {
+    width: 380px;
+    height: 380px;
+  }
+  /* JOIN FINISH */
+}
+
+@media all and (max-width: 426px) {
+  .container__aboutus {
+    padding: 0;
+    padding-top: 20px;
+  }
+
+  .aboutus__items__left {
+    display: none;
+  }
+
+  .aboutus__items__left1 {
+    display: none;
+  }
+
+  .aboutus__title h2,
+  .aboutus__title h3 {
+    font-size: 28px;
+  }
+
+  .aboutus__items__right {
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    width: 390px;
+    height: 550px;
+  }
+
+  .aboutus__right__left img {
+    margin: 0;
+  }
+
+  .aboutus__right__left {
+    display: flex;
+    justify-content: center;
+  }
+
+  .aboutus__right__right {
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+
+  /* GUITAR START */
+  .container__guitar img {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  /* GUITAR FINISH */
+
+  /* JOIN START */
+  .join__left {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+
+  .join__left h3 {
+    font-size: 35px;
+    margin: 0;
+    margin-bottom: 0;
+  }
+
+  .join__left h4 {
+    margin-top: 0px;
+    margin: 0;
+    font-size: 40px;
+  }
+
+  .join__left p {
+    margin: 0;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+
+  .join__left button {
+    margin: 0;
+    margin-top: 30px;
+  }
+
+  .join__right {
+    display: none;
+  }
+
+  .join__right img {
+    display: none;
+  }
+  /* JOIN FINISH */
+}
+
+@media all and (max-width: 376px) {
+  .container__aboutus {
+    padding: 0;
+    padding-top: 20px;
+  }
+
+  .aboutus__items__left {
+    display: none;
+  }
+
+  .aboutus__items__left1 {
+    display: none;
+  }
+
+  .aboutus__title h2,
+  .aboutus__title h3 {
+    font-size: 28px;
+  }
+
+  .aboutus__items__right {
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    width: 340px;
+    height: 600px;
+  }
+
+  .aboutus__right__left img {
+    margin: 0;
+  }
+
+  .aboutus__right__left {
+    display: flex;
+    justify-content: center;
+  }
+
+  .aboutus__right__right {
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+
+  /* JOIN START */
+  .join__left {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+
+  .join__left h3 {
+    font-size: 35px;
+    margin: 0;
+    margin-bottom: 0;
+  }
+
+  .join__left h4 {
+    margin-top: 0px;
+    margin: 0;
+    font-size: 40px;
+  }
+
+  .join__left p {
+    margin: 0;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-top: 20px;
+  }
+
+  .join__left button {
+    margin: 0;
+    margin-top: 30px;
+  }
+
+  .join__right {
+    display: none;
+  }
+
+  .join__right img {
+    display: none;
+  }
+  /* JOIN FINISH */
+}
+
+@media all and (max-width: 321px) {
+  .container__aboutus {
+    padding: 0;
+    padding-top: 20px;
+  }
+
+  .aboutus__items__left {
+    display: none;
+  }
+
+  .aboutus__items__left1 {
+    display: none;
+  }
+
+  .aboutus__title h2,
+  .aboutus__title h3 {
+    font-size: 28px;
+  }
+
+  .aboutus__items__right {
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    width: 280px;
+    height: 600px;
+  }
+
+  #aiba {
+    width: 150px;
+    height: 190px;
+  }
+
+  .aboutus__right__left img {
+    margin: 0;
+  }
+
+  .aboutus__right__left {
+    display: flex;
+    justify-content: center;
+  }
+
+  .aboutus__right__right {
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+
+  /* JOIN START */
+  .join__left {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+
+  .join__left h3 {
+    font-size: 25px;
+    line-height: 1;
+    margin: 0;
+    margin-bottom: 0;
+  }
+
+  .join__left h4 {
+    margin-top: 0px;
+    line-height: 1.5;
+
+    margin: 0;
+    font-size: 25px;
+  }
+
+  .join__left p {
+    margin: 0;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-top: 20px;
+  }
+
+  .join__left button {
+    margin: 0;
+    margin-top: 30px;
+  }
+
+  .join__right {
+    display: none;
+  }
+
+  .join__right img {
+    display: none;
+  }
+  /* JOIN FINISH */
+}

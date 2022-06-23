@@ -1,0 +1,14 @@
+.container__registration {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.container__registration__button {
+  display: flex;
+  justify-content: center;
+}
