@@ -54,6 +54,7 @@ const Home = () => {
         </video>
       </div>
       {/* VIDEO FINISH */}
+
       {/* CONTENT START */}
       <div className="container__content">
         <div className="content__left">

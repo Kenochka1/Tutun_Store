@@ -25,7 +25,6 @@ const CreditCard = () => {
   return (
     <>
       {" "}
-      {/* <div className="rccs__card backcolor"> */}
       <div className="container-payment">
         <div clasName="rccs__card rccs__card--unknown">
           <Cards

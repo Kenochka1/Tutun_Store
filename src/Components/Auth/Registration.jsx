@@ -31,9 +31,7 @@ const Register = () => {
       localStorage.setItem("access", access);
       localStorage.setItem("refresh", refresh);
       navigate("/products");
-    } catch (error) {
-      // notify(error.response.data);
-    }
+    } catch (error) {}
   };
 
   const registerUser = async (newUser) => {
@@ -43,9 +41,7 @@ const Register = () => {
     try {
       await axios.post(`${URL}/account/register/`, newUser, config);
       loginUser(newUser);
-    } catch (error) {
-      // notify(error.response.data);
-    }
+    } catch (error) {}
   };
 
   function handleClick() {

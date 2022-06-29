@@ -48,14 +48,6 @@ const Navbars = () => {
               </NavLink>
             </div>
             <LiveSearch />
-            {/* <Form className="d-flex">
-              <Form.Control
-                type="search"
-                placeholder="Search  "
-                className="me-2, mb-4"
-                aria-label="Search"
-              />
-            </Form> */}
           </Navbar.Collapse>
         </Container>
       </Navbar>

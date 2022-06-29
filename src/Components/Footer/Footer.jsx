@@ -39,8 +39,6 @@ const Footer = () => {
             +996 (995) 50 30 05 <br /> sultanalievkanat@gmail.com
             <br /> aibativagov@gmail.com
           </p>
-          {/* <img id="phonebook" src={phonebook} alt="phonebook" />
-          <img id="email" src={email} alt="email" /> */}
         </div>
         <div className="footer__items">
           <h3>Social</h3>
